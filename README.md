@@ -1,4 +1,6 @@
 # Lab 08 Recursion running on GCP
+
+## Set up
 1. Make sure when you print your working directory, you are in your lab08 folder.
    If not, naviagate to your lab08 directory
    
@@ -16,6 +18,7 @@
    
    `chmod -R 755 .`
 
+## Coding
 5. Take a look at a few of the files. recursion.jsp is the ONLY file you will need to modify.
    
    `cat webapp/recursion.jsp`
@@ -40,3 +43,11 @@
    
    Use CTRL+O and then ENTER to save changes.
    Use CTRL+X to exit the editer.
+
+## Testing
+
+
+## Final deployment
+
+   `gcloud app deploy webapp/WEB-INF/appengine-web.xml`
+
