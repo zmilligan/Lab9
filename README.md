@@ -1,4 +1,4 @@
-# Lab 08 Recursion running on GCP
+# Lab 08 - Part 2 Recursion running on GCP
 
 ## Set up
 1. Make sure when you print your working directory, you are in your lab08 folder.
