@@ -12,7 +12,7 @@
    
    `unzip webapp.zip -d webapp`
 
-4. Adjust the permissions on the lab08 folder. Note: if you get Permission denied issues, make sure this command completed successfully.
+4. Adjust the permissions on the lab08 folder. Note: if you get Permission denied issues at any point during this assignment, make sure this command completed successfully.
    
    `chmod -R 755 .`
 
