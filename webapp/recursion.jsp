@@ -69,7 +69,7 @@
     {
         if(n <= 0)
         {
-            return 0
+            return 0;
         }
         if(n == 1)
         {
@@ -178,8 +178,8 @@
      */
     public int treeSum(Tree tree)
     {
-        ArrayList<Tree> children = Tree.getChildren();
-        int value = Tree.getValue()
+        ArrayList<Tree> children = tree.getChildren();
+        int value = tree.getValue();
 
         if(children.getSize() == 0)
         {
@@ -190,7 +190,7 @@
         {
             value += treeSum(child);
         }
-        
+
         return value;
     }
     
