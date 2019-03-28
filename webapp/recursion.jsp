@@ -108,25 +108,23 @@
     
         public Tree(int value)
         {
-    	    //TODO
-            return 0;
+            children = new ArrayList<Tree>();
+    	    this.value = value;
         }
     
         public int getValue()
         {
-    	    //TODO
-            return 0;
+            return value;
         }
     
         public ArrayList<Tree> getChildren()
         {
-    	    //TODO
-            return null;
+            return children;
         }
     
         public void add(Tree child)
         {
-    	    //TODO
+    	    children.add(child);
         }
     }
     
@@ -160,11 +158,14 @@
     {
         if (height == 1) 
         {
-    	    //TODO
+    	    return 1;
         }
-        
-    	//TODO
-        return 0;
+        if(height <= 0)
+        {
+            return 0;
+        }
+        return branchingFactor*(nnaryTreeSize(branchingFactor, height - 1) - nnaryTreeSize(branchingFactor, height - 2)) 
+                    + nnaryTreeSize(branchingFactor, height - 1);
     }
 
     /** **********************************************************************
