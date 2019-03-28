@@ -33,6 +33,8 @@
 
 6. Before you make any modifications to any files, link this folder to your own private repo.
    
+   `git remote rm origin`
+   
    `git remote add origin new_repo_url`
    
    `git remote -v`
