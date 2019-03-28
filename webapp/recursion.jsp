@@ -33,7 +33,6 @@
          * Here is the base case (ending condition): value == 1.
          * This lets our recursion know when to stop.
          */
-        //TODO
         if(value <= 1)
         {
             return 1;
@@ -47,7 +46,6 @@
          * 
          * By doing this, we break up the equation n! into n! = n * (n-1)!.
          */
-        //TODO
         return value * factorial(value - 1);
     }
 
@@ -69,8 +67,15 @@
      */
     public int fibonacci(int n)
     {
-        //TODO
-        return 0;
+        if(n <= 0)
+        {
+            return 0
+        }
+        if(n == 1)
+        {
+            return 1;
+        }
+        return fibonacci(n-1) + fibonacci(n-2);
     }
 
     
