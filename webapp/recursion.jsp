@@ -13,8 +13,8 @@
      * This lab tests your ability to implement recursion for several functions.
      * 
      * @authors: Stephen, Mukhtar, MoSho
-     * @editer: YOUR_NAME_HERE
-     * @version DATE_HERE
+     * @editer: Zandi Milligan
+     * @version 2019-03-28
      */
 
     /** **********************************************************************
@@ -46,6 +46,7 @@
          */
         //TODO
 
+        return 0;
     }
 
     /** **********************************************************************
@@ -67,6 +68,7 @@
     public int fibonacci(int n)
     {
         //TODO
+        return 0;
     }
 
     
@@ -100,16 +102,19 @@
         public Tree(int value)
         {
     	    //TODO
+            return 0;
         }
     
         public int getValue()
         {
     	    //TODO
+            return 0;
         }
     
         public ArrayList<Tree> getChildren()
         {
     	    //TODO
+            return null;
         }
     
         public void add(Tree child)
@@ -152,6 +157,7 @@
         }
         
     	//TODO
+        return 0;
     }
 
     /** **********************************************************************
@@ -165,6 +171,7 @@
     public int treeSum(Tree tree)
     {
     	//TODO
+        return 0;
     }
     
     /** **********************************************************************
