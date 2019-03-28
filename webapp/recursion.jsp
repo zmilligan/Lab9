@@ -178,8 +178,20 @@
      */
     public int treeSum(Tree tree)
     {
-    	//TODO
-        return 0;
+        ArrayList<Tree> children = Tree.getChildren();
+        int value = Tree.getValue()
+
+        if(children.getSize() == 0)
+        {
+            return value;
+        }
+        
+        for(Tree child : children)
+        {
+            value += treeSum(child);
+        }
+        
+        return value;
     }
     
     /** **********************************************************************
