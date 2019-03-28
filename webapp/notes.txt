@@ -1,0 +1,21 @@
+1.  >> gcloud app create
+2.  Edit recursion.jsp file and complete the TODOs.
+    >> nano src/main/webapp/recursion.jsp
+
+3.  Test app, by starting local proxy server
+    >> mvn appengine:run
+    https://cloud.google.com/appengine/docs/standard/java/tools/using-local-server
+    /home/dragonmosho/.m2/repository/com/google/appengine/appengine-java-sdk/1.9.68/appengine-java-sdk/appengine-java-sdk-1.9.68/bin/dev_appserver.sh
+    >> appengine-java-sdk/bin/dev_appserver.sh [options] [WAR_DIRECTORY_LOCATION]
+    
+4.  Deploy final version
+    >> gcloud app deploy webapp/WEB-INF/appengine-web.xml
+    
+Notes:
+*   In case of permissions issue. 
+    To change the permissions of all of the files within that directory
+    >> chmod -R 755 directoryname
+    
+*   Login
+    110000000
+    110000000
