@@ -4,17 +4,17 @@
 1. Make sure when you print your working directory, you are in your lab08 folder.
    If not, naviagate to your lab08 directory
    
-   `cd CS2334_SP19/lab08`
+   `cd CS2334_SP19/lab09`
    
 2. Clone this repo. Note: make sure to include the dot in the command below.
    
-   `git clone https://github.com/MomoSho/lab08.git .`
+   `git clone https://github.com/MomoSho/lab09.git .`
    
 3. Extract the project files into a created folder named webapp
    
    `unzip webapp.zip -d webapp`
 
-4. Adjust the permissions on the lab08 folder. Note: if you get Permission denied issues at any point during this assignment, make sure this command completed successfully.
+4. Adjust the permissions on the lab09 folder. Note: if you get Permission denied issues at any point during this assignment, make sure this command completed successfully.
    
    `chmod -R 755 .`
 
